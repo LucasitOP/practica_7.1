@@ -2,6 +2,7 @@ const express = require('express');
 const _ = require('underscore');
 
 var port = process.env.PORT || 8080;
+
 var animals = {
     "cat": "meow",
     "dog": "bark",
@@ -10,8 +11,8 @@ var animals = {
     "frog": "croak",
     "lion": "roar",
     "bird": "tweet",
-    "turtle":"trrr",
-   "perro": "guau"
+    "turtle": "trrr",
+    "perro": "guau"
 }
 
 function getAnimal() {
